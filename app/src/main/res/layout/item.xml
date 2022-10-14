@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Sample title"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="kategori" />
+    <TextView
+        android:id="@+id/txt_umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="usia" />
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:textColor="@color/black"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod arcu tincidunt mauris dapibus laoreet. Curabitur suscipit nibh in nulla mattis vestibulum. Nullam gravida quam sit amet arcu blandit, et malesuada felis vulputate. Integer sagittis, turpis ac cursus venenatis, quam neque tincidunt nulla, ac posuere sem eros ut lorem. Suspendisse non aliquam urna, in porttitor ipsum. Suspendisse vitae massa a erat imperdiet condimentum. Duis tincidunt libero ut ex pretium consectetur. Vivamus gravida, dui in pellentesque interdum, nisi tortor auctor felis, nec facilisis dui arcu nec arcu. Sed blandit felis sollicitudin tincidunt ultricies. Morbi egestas rhoncus sapien, non lobortis orci tincidunt sit amet. Sed eget massa mauris. Nunc pellentesque condimentum justo eu venenatis. Sed consectetur turpis in consectetur luctus"
+        android:ellipsize="end"/>
+
+
+
+</LinearLayout>

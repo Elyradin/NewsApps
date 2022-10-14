@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsApps</string>
+    <string-array name="Kategori">
+        <item>Sport</item>
+        <item>Politic</item>
+        <item>Entertainment</item>
+        <item>Worklife</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

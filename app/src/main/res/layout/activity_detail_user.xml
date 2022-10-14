@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailUser">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtdetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info Pribadi"
+            android:layout_marginTop="40dp"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/ettanggal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:editable="false"
+            android:layout_below="@+id/txtdetail"
+            android:inputType="none"
+            android:drawableLeft="@drawable/ic_baseline_date_range_24"
+            android:drawablePadding="20dp"
+            android:background="@drawable/rounded"
+            android:hint="Tanggal lahir"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/black"/>
+        <LinearLayout
+            android:id="@+id/ket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/ettanggal">
+            <EditText
+                android:id="@+id/etkategori"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/ettanggal"
+                android:layout_margin="20dp"
+                android:background="@drawable/rounded"
+                android:hint="Pilih Kategori"
+                android:textColorHint="@color/black"
+                android:paddingLeft="10dp"
+                android:textAlignment="textStart"
+                android:editable="false"
+                android:layout_weight="1"/>
+            <Spinner
+                android:id="@+id/labelspinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="6"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnkirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KIRIM"
+            android:layout_below="@+id/ket"
+            android:layout_margin="20dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
